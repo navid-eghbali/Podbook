@@ -29,7 +29,9 @@ android {
 }
 
 dependencies {
+    implementation(project(":core:ui-designsystem"))
     implementation(project(":shared"))
+
     implementation(platform(libs.androidx.compose.bom))
     implementation(libs.androidx.compose.ui.ui)
     implementation(libs.androidx.compose.ui.tooling)

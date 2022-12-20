@@ -16,5 +16,6 @@ dependencyResolutionManagement {
 rootProject.name = "Podbook"
 include(
     ":app",
+    ":core:ui-designsystem",
     ":shared",
 )
